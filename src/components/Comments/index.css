@@ -1,0 +1,149 @@
+/* Write your CSS here */
+.comments-bg-container {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.comments-app-container {
+  width: 90%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.comment-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.comment-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  /* font-weight: bold; */
+  color: #475569;
+  margin-bottom: 10px;
+}
+
+.name-input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  outline: none;
+  height: 40px;
+  padding: 15px;
+  margin-bottom: 10px;
+  width: 260px;
+}
+
+.comment-input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  outline: none;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 260px;
+  height: 240px;
+}
+
+.add-comment-btn {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #dee0e3;
+  background-color: #0284c7;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.comments-image {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.hr-line {
+  color: #cbd2d9;
+}
+
+.comments-count {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: #334155;
+  margin-top: 20px;
+}
+
+.count {
+  font-size: 14px;
+  color: #dee0e3;
+  background-color: #0284c7;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.comment-items-container {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@media (min-width: 576px) {
+  .form-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .comment-heading {
+    font-size: 42px;
+  }
+
+  .comment-description {
+    font-size: 20px;
+  }
+  .form-container {
+    width: 50%;
+  }
+  .name-input {
+    font-size: 18px;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .comment-input {
+    font-size: 18px;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .add-comment-btn {
+    font-size: 18px;
+  }
+
+  .comments-image {
+    width: 40%;
+  }
+
+  .comments-count {
+    font-size: 20px;
+  }
+
+  .count {
+    font-size: 18px;
+  }
+}

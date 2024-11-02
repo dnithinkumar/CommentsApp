@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.comment-item {
+  margin: 30px 0px;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.first-letter {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  padding-top: 5px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  color: #334155;
+  margin-right: 20px;
+}
+
+.time {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.comment {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #64748b;
+  margin-left: 50px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.like-container {
+  display: flex;
+  align-items: center;
+}
+
+.like-btn {
+  border: none;
+  background-color: #ffffff;
+  padding: 0;
+}
+
+.like-img {
+  width: 20px;
+  height: 20px;
+}
+
+.like-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #7e858e;
+  margin-left: 10px;
+}
+
+.delete-btn {
+  border: none;
+  background-color: #ffffff;
+  padding: 0;
+}
+
+.delete-img {
+  width: 20px;
+  height: 20px;
+}
+
+.hr-line {
+  color: #cbd2d9;
+  margin-top: 10px;
+}
+
+.liked-text {
+  color: #0ea5e9;
+}
+
+@media (min-width: 768px) {
+  .name-container {
+    margin-bottom: 15px;
+  }
+
+  .first-letter {
+    font-size: 18px;
+  }
+
+  .name {
+    font-size: 20px;
+    margin-right: 25px;
+  }
+
+  .time {
+    font-size: 16px;
+  }
+
+  .comment {
+    font-size: 18px;
+  }
+
+  .btn-container {
+    margin-top: 20px;
+  }
+
+  .like-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .like-img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .like-text {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+
+  .delete-img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .hr-line {
+    margin-top: 15px;
+  }
+}
